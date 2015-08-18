@@ -4,7 +4,7 @@ Terraform plugin mostly based on https://github.com/gosuri/terraform-exec-provid
 
 ## Usage
 
-    resource "exec" "command" {
+    resource "execute_command" "command" {
       command "/path/to/command"
       destroy_command "/path/to/command"
     }
