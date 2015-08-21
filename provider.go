@@ -8,7 +8,7 @@ import (
 func Provider() terraform.ResourceProvider {
 	return &schema.Provider{
 		ResourcesMap: map[string]*schema.Resource{
-			"execute_command": resourceExec(),
+			"execute_command": resource(),
 		},
 	}
 }
