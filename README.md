@@ -32,3 +32,8 @@ The below example will create a 'testfile' file when you run 'terraform apply' a
     $ go get; go build
 
 Then copy the resulting binary to where terraform binary is.
+
+## With Homebrew
+
+    $ brew tap 'Samsung-AG/terraform-provider-execute'
+    $ brew install terraform-provider-execute
