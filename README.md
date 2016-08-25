@@ -35,5 +35,5 @@ Then copy the resulting binary to where terraform binary is.
 
 ## With Homebrew
 
-    $ brew tap 'Samsung-AG/terraform-provider-execute'
+    $ brew tap 'samsung-cnct/terraform-provider-execute'
     $ brew install terraform-provider-execute
