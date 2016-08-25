@@ -27,7 +27,7 @@ The below example will create a 'testfile' file when you run 'terraform apply' a
 
 ## Installation
 
-    $ git clone https://github.com/gosuri/terraform-exec-provider.git
+    $ git clone https://github.com/samsung-cnct/terraform-provider-execute.git
     $ cd terraform-exec-provider
     $ go get; go build
 
