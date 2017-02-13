@@ -37,3 +37,21 @@ Then copy the resulting binary to where terraform binary is.
 
     $ brew tap 'samsung-cnct/terraform-provider-execute'
     $ brew install terraform-provider-execute
+
+## Cutting release
+This is a manual release process, we may automate it in the future if there is a need.
+
+Steps:
+1. build linux executable:
+`GOOS=linux GOARCH=amd64 go build`
+2. tar linux executable
+`tar -cf terraform-provider-execute_linux_amd64.tar terraform-provider-execute`
+3. gzip linux executable
+`gzip terraform-provider-execute_linux_amd64.tar`
+4. repeat above for darwin build
+5. click 'Draft a new release' on releases page
+6. fill out form
+7. Add both tar.gz files
+
+Reccomended:
+1. update https://github.com/samsung-cnct/homebrew-terraform-provider-execute with new version information
