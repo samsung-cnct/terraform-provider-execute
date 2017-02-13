@@ -52,3 +52,6 @@ Steps:
 5. click 'Draft a new release' on releases page
 6. fill out form
 7. Add both tar.gz files
+
+Reccomended:
+1. update https://github.com/samsung-cnct/homebrew-terraform-provider-execute with new version information
